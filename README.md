@@ -1,6 +1,6 @@
 # Responsive Login Form with Tailwind JS and AOS. 
 
-![Alt Text](VIDEO)
+![Alt Text](https://gyazo.com/e85494542bd7fd3429d13b263bd8974c.gif)
 ## Installation
 
 ```bash
