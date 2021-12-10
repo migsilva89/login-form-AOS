@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form (Responsive)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- STYLESHEET AOS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    
+    <!-- CLASS TO PLACE ALL ITEMS IN THE CENTER ! -->
+    <main class="container mx-auto h-screen flex justify-center items-center">
+
+        <div>
+            <div class="form rounded-md drop-shadow-lg" data-aos="zoom-out" id="login" >
+                <!-- TITLE -->
+                <div class="space-y-6" > <!-- PADDING Y(vertical) BTW ALL  -->
+                    <div class="form__title" data-aos="zoom-in">
+                        <h1 class="text-gray-600 text-center text-4xl font-bold">Welcome bro!</h1>
+                    </div>
+                    <!-- INSERT USERNAME -->
+                    <div class="form__input-group" data-aos="flip-right">
+                        <input type="text" class="form__input border-2 border-gray-300 rounded-md p-2" autofocus placeholder="  Username" id="usernameInput">
+                    </div>
+                    <!-- INSERT PASSWORD -->
+                    <div class="form__input-group" data-aos="flip-up">
+                        <input  type="password" class="form__input border-2 border-gray-300 rounded-md p-2" autofocus placeholder="  Password" id="passwordInput">
+                    </div>
+                    <!-- BUTTON -->
+                    <div class="form__button bg-gray-600 rounded-md border-2 text-center hover:bg-gray-500" data-aos="slide-up">
+                    <a href="#" class="text-white">
+                        <button class="p-2" id="loginButton">Sign In</button>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- SCRIPT AOS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+
+        AOS.init({
+        duration: 2000,
+        })
+
+    </script>
+
+</body>
+</html>
